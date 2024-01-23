@@ -61,7 +61,11 @@ public class Employee {
         return curentEmployeeDate.compareTo(otherEmployeeDate);
     }
 
-
+    public static int compareTo2(int yyyy, int mm, int dd, Employee employee) {
+        LocalDate otherDate = LocalDate.of(yyyy, mm, dd);
+        LocalDate employeeDate = employee.getBirthdayDate();
+        return otherDate.compareTo(employeeDate);
+    }
 }
 
 

@@ -115,9 +115,9 @@ public class Main {
 
         System.out.println(employee1.compareTo(employee2));
         System.out.println(employee1.compareTo(employee3));
-        System.out.println(employee1.compareTo(employee4));
-        System.out.println(employee1.compareTo(employee5));
-        System.out.println(employee1.compareTo(supervisor));
+        System.out.println(Employee.compareTo2(1989, 3,23, employee4));
+        System.out.println(Employee.compareTo2(1979, 6,30, employee5));
+        System.out.println(Employee.compareTo2(1990,4,25, supervisor));
 
 
     }
